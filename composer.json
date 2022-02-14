@@ -1,0 +1,26 @@
+{
+    "name": "nhn-edu/dooray-task-sync",
+    "description": "This project provides the ability to synchronize processing between Dooray Projects.",
+    "version": "1.0.0",
+    "type": "project",
+    "keywords" : ["dooray","messenger","project","api","schedule","synchronize","sync"],
+    "homepage": "https://github.com/eric-nhnedu/dooray-task-sync",
+    "time": "2020-02-11 00:00:00",
+    "license": "Apache-2.0",
+    "require": {
+        "nhn-edu/php-dooray": "~1.0.1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "NhnEdu\\DoorayTaskSync\\": ["src", "src/classes"]
+        }
+    },
+    "authors": [
+        {
+            "name": "Eric Jo",
+            "email": "eric@nhnedu.com",
+			"homepage": "http://www.autoset.org",
+			"role": "Developer"
+        }
+    ]
+}

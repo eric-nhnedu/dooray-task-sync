@@ -1,0 +1,30 @@
+{
+	"ORIGIN_AUTH_KEY" : "Peronsoal Auth Key from origin Dooray!",
+	"ORIGIN_TENANT_ID" : "origin-host-name",
+
+	"ORIGIN_PROJECT_IDS" : [
+			"1234567890123456789"
+		],
+
+	"DESTINATION_AUTH_KEY" : "Peronsoal Auth Key from destination Dooray!",
+	"DESTINATION_TENANT_ID" : "destination-host-name",
+
+	"DESTINATION_PROJECT_ID" : "2345678901234567890",
+	"DESTINATION_PROJECT_TO_EMAILS" : [
+			"to-user@your-domain.com"
+		],
+	"DESTINATION_PROJECT_CC_EMAILS" : [
+			"cc-user@your-domain.com"
+		],
+
+	"NEW_TASK_TAG_NAMES" : [
+		"Type:Tech Support",
+		"Lang:English"
+	],
+
+	"SYNC_START_DATE" : "2019-01-01T00:00:00+09:00",
+	"SYNC_END_DATE" : "{today}+09:00",
+	
+	"CLONE_LOG_MESSAGE" : "The URL below is the original:\n - {url}"
+
+}

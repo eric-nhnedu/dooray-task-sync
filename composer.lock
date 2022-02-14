@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "83693e9447dcc9942920b07daa176522",
+    "packages": [
+        {
+            "name": "nhn-edu/php-dooray",
+            "version": "1.0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eric-nhnedu/php-dooray.git",
+                "reference": "15b8fbff5c7fa4f18496edf09af2a21e98422051"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eric-nhnedu/php-dooray/zipball/15b8fbff5c7fa4f18496edf09af2a21e98422051",
+                "reference": "15b8fbff5c7fa4f18496edf09af2a21e98422051",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NhnEdu\\PhpDooray\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Jo",
+                    "email": "eric@nhnedu.com",
+                    "homepage": "http://www.autoset.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Dooray SDK for PHP - Can easily use APIs provided by Dooray! (https://www.dooray.com) service.",
+            "homepage": "https://github.com/eric-nhnedu/php-dooray",
+            "keywords": [
+                "Messenger",
+                "api",
+                "dooray",
+                "project"
+            ],
+            "support": {
+                "source": "https://github.com/eric-nhnedu/php-dooray/tree/1.0.1.5"
+            },
+            "time": "2020-02-10T20:00:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
